@@ -12,8 +12,8 @@ if __name__ == "__main__":
     # The main program parameters
     NumberOfImages = 1                              # the number of images you want [0-100000]
     NrObjects = random.randint(3,20)                        # the number of objects in each image [1-10]
-    var = 'False'                                    # is there gap between objects or not.
-    OverlapRemove = 'True'
+    var = 'True'                                    # is there gap between objects or not.
+    OverlapRemove = 'True'                          # remove overlapped shapes if true.
     colors = ['red', 'blue', 'black', 'yellow']     # choose a set of colors that gonna be used
     # create output directory
     if not os.path.exists(AggregateOutputPath):

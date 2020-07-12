@@ -65,7 +65,7 @@ def Triangle90(center, Redius, angle):
     Points.append(center)
     return Points
 
-def Sedean( Distortion, missing, scale = 2, rotation = 0 ):
+def Sedan( Distortion, missing, scale = 2, rotation = 0 ):
     #seed(0)
     if Distortion == 'True':
         VarLocaion = random.choices(range(-40,20,5), k = 2)
@@ -189,7 +189,7 @@ def SUV2(Distortion, missing, scale = 1, rotation = 0):
         r = 0
     return vertices
 
-def Wagen( Distortion, missing, scale = 1, rotation = 0):
+def Wagon( Distortion, missing, scale = 1, rotation = 0):
     #seed(0)
     if Distortion == 'True':
         VarLocaion = random.choices(range(-40, 20, 5), k=2)
